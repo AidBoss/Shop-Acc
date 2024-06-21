@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/Css/home/homeIndex.css" />
+    <link rel="stylesheet" href="../../assets/Css/home/root.css" />
+    <link rel="stylesheet" href="../../assets/Css/home/cssListAcc.css" />
+    <link rel="stylesheet" href="../../assets/Css/home/signUp.css" />
+    <link rel="stylesheet" href="../../assets/Css/home/listAcc.css" />
+    <link rel="stylesheet" href="../../assets/Css/home/pay.css" />
+    <link rel="stylesheet" href="../../assets/Css/admin/qltk.css" />
+    <link rel="stylesheet" href="../../assets/Css/admin/qlacc.css" />
+    <link rel="stylesheet" href="../../assets/Css/admin/tonghop.css" />
+    <!-- link bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- link css icon-->
+    <link
+      rel="stylesheet"
+      href="../../assets/fontawesome-free-6.5.2-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="wrapper">
+      <section class="header">
+        <!-- logo -->
+        <div class="header-upper-half">
+          <nav class="navbar navbar-expand-lg bg-transparent p-0">
+            <div class="container container_home">
+              <a class="navbar-brand" href="index.html" style="height: 70px"
+                ><img
+                  id="logo_web"
+                  src="../../assets/images/logo/logo-white.png"
+                  alt=""
+              /></a>
+              <button
+                class="navbar-toggler shadow-none border-0"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="sidebar offcanvas offcanvas-start"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    Aidboss
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div
+                  class="offcanvas-body flex-column d-flex p-lg-0 flex-lg-row p-4 justify-content-between"
+                >
+                  <ul
+                    class="lists_sd navbar-nav justify-content-around fs-6 pe-3"
+                  >
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        id="text-link-header"
+                        aria-current="page"
+                        href="doashBoad.html"
+                        >Quản lý tài khoản</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        id="text-link-header"
+                        aria-current="page"
+                        href="QuanLyAcc.html"
+                        >Quản lý Acc</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        id="text-link-header"
+                        aria-current="page"
+                        href="QuanLyHoaDon.html"
+                        >Quản lý hóa đơn</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        id="text-link-header"
+                        aria-current="page"
+                        href="#"
+                        >Tổng hợp</a
+                      >
+                    </li>
+                  </ul>
+                  <div
+                    class="login-header d-flex flex-lg-row justify-content-center align-items-center gap-3"
+                  >
+                    <a
+                      href="signUp.html"
+                      id="btn-sign a"
+                      class="btn-sign text-black text-decoration-none px-3 py-1 rounded-4"
+                      >Login</a
+                    >
+                    <!-- <a
+                      href="#form_register"
+                      id="btn-sign b"
+                      class="btn-sign text-black text-decoration-none px-3 py-1 rounded-4"
+                      >Sign Up</a
+                    > -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!-- menu header -->
+        <!-- <nav class="menu-header"></nav> -->
+      </section>
+
+      <!-- Phần thân trang web -->
+      <section class="container_section">
+        <div class="content_tonghop">
+          <div class="SoluongAcc">
+            <div class="sla_honkai">
+              <h4 id="text-link-header">Tổng hợp Honkai</h4>
+              <p><i class="fa-solid fa-crown"></i> Số lượng đã bán:</p>
+              <p><i class="fa-solid fa-warehouse"></i> Số lượng acc còn lại:</p>
+              <p>
+                <i class="fa-solid fa-money-bill-1-wave"></i> số tiền đã bán
+                được:
+              </p>
+            </div>
+            <div class="sla_genshin">
+              <h4 id="text-link-header">Tổng hợp Genshin</h4>
+              <p><i class="fa-solid fa-crown"></i> Số lượng đã bán:</p>
+              <p><i class="fa-solid fa-warehouse"></i> Số lượng acc còn lại:</p>
+              <p>
+                <i class="fa-solid fa-money-bill-1-wave"></i> số tiền đã bán
+                được:
+              </p>
+            </div>
+            <div class="sla_honkai3">
+              <h4 id="text-link-header">Tổng hợp Honkai3</h4>
+              <p><i class="fa-solid fa-crown"></i> Số lượng đã bán:</p>
+              <p><i class="fa-solid fa-warehouse"></i> Số lượng acc còn lại:</p>
+              <p>
+                <i class="fa-solid fa-money-bill-1-wave"></i> số tiền đã bán
+                được:
+              </p>
+            </div>
+            <div class="sla_lq">
+              <h4 id="text-link-header">Tổng hợp Lq</h4>
+              <p><i class="fa-solid fa-crown"></i> Số lượng đã bán:</p>
+              <p><i class="fa-solid fa-warehouse"></i> Số lượng acc còn lại:</p>
+              <p>
+                <i class="fa-solid fa-money-bill-1-wave"></i> số tiền đã bán
+                được:
+              </p>
+            </div>
+          </div>
+          <div class="doanhThu">
+            <p id="tdt">Tổng doanh thu</p>
+            <p>Số tiền: <span id="tiendt">120.000.000đ</span></p>
+          </div>
+        </div>
+      </section>
+      <!-- kết thúc Phần thân trang web -->
+      <section class="foodter">
+        <div class="about_footer">
+          <h5 id="color_text_gradient">Về chúng tôi:</h5>
+          <p>
+            Uy tín là tiêu chí hàng đầu của chúng tôi. <br />
+            Hy vọng bạn có nhưng trải nghiệm tốt nhất. <br />
+            Đây là trang web duy nhất của Aidboss ngoài ra còn lại toàn web giả
+            mạo!
+          </p>
+        </div>
+        <div class="infour_contact_footer">
+          <h5 id="color_text_gradient">Thông tin liên hệ:</h5>
+          <span
+            >THỜI GIAN HỖ TRỢ: Sáng: 8h00 -> 11h30 | Chiều: 13h00 -> 21h00</span
+          >
+          <a
+            target="_blank"
+            id="icon_footer icon_fb"
+            href="https://www.facebook.com/profile.php?id=100039476863072"
+            ><i class="fa-brands fa-facebook"></i>
+            <span id="name_admin"> Dinh Duc Anh </span></a
+          >
+          <a
+            id="icon_footer icon_zalo"
+            href="https://zalo.me/0343564138"
+            target="_blank"
+            ><img width="20px" src="../../assets/images/logo/zalo.png" alt="" />
+            <span id="name_admin"> Dinh Duc Anh </span></a
+          >
+          <a
+            id="icon_footer icon_mess"
+            href="https://www.messenger.com/t/100039476863072/"
+          >
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <span id="name_admin"> Dinh Duc Anh </span>
+          </a>
+        </div>
+        <div class="type_service_footer">
+          <h5 id="color_text_gradient">Các loại dịch vụ của chúng tôi</h5>
+          <p>
+            Bán acc VIP : <br />
+            Genshin - Honkai - Honkai - LOL<br />
+            Bán acc RANDOM : <br />
+            Genshin - Honkai - Honkai - LOL
+          </p>
+        </div>
+      </section>
+    </section>
+    <!-- link js -->
+    <script src="../../assets/Js/admin/qlacc.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

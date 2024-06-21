@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/Css/home/homeIndex.css" />
+    <link rel="stylesheet" href="../../assets/Css/home/root.css" />
+    <link rel="stylesheet" href="../../assets/Css/home/cssListAcc.css" />
+    <link rel="stylesheet" href="../../assets/Css/home/signUp.css" />
+    <link rel="stylesheet" href="../../assets/Css/home/listAcc.css" />
+    <link rel="stylesheet" href="../../assets/Css/home/pay.css" />
+    <!-- link bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- link css icon-->
+    <link
+      rel="stylesheet"
+      href="../../assets/fontawesome-free-6.5.2-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="wrapper">
+      <section class="header">
+        <!-- logo -->
+        <div class="header-upper-half">
+          <nav class="navbar navbar-expand-lg bg-transparent p-0">
+            <div class="container container_home">
+              <a class="navbar-brand" href="index.html" style="height: 70px"
+                ><img
+                  id="logo_web"
+                  src="../../assets/images/logo/logo-white.png"
+                  alt=""
+              /></a>
+              <button
+                class="navbar-toggler shadow-none border-0"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="sidebar offcanvas offcanvas-start"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    Aidboss
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div
+                  class="offcanvas-body flex-column d-flex p-lg-0 flex-lg-row p-4 justify-content-between"
+                >
+                  <ul
+                    class="lists_sd navbar-nav justify-content-around fs-6 pe-3"
+                  >
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        id="text-link-header"
+                        aria-current="page"
+                        href="index.html"
+                        >Shop Acc Aidboss</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        id="text-link-header"
+                        aria-current="page"
+                        href="#"
+                        >Liên hệ</a
+                      >
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link active dropdown-toggle"
+                        id="navbarDropdown"
+                        aria-current="page"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        href="#"
+                        style="
+                          background: linear-gradient(
+                            to bottom right,
+                            #ff1493,
+                            #00bfff
+                          );
+                          -webkit-background-clip: text;
+                          background-clip: text;
+                          color: transparent;
+                        "
+                        >Nạp tiền</a
+                      >
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            id="text-link-header"
+                            href="#"
+                            >Nạp qua ngân hàng</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            id="text-link-header"
+                            href="#"
+                            >Nạp qua Momo</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        id="text-link-header"
+                        aria-current="page"
+                        href="#"
+                        >Uy tín</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        id="text-link-header"
+                        aria-current="page"
+                        href="historyBought.html"
+                        >Lịch sử mua hàng</a
+                      >
+                    </li>
+                  </ul>
+                  <div
+                    class="login-header d-flex flex-lg-row justify-content-center align-items-center gap-3"
+                  >
+                    <a
+                      href="signUp.html"
+                      id="btn-sign a"
+                      class="btn-sign text-black text-decoration-none px-3 py-1 rounded-4"
+                      >Login</a
+                    >
+                    <!-- <a
+                      href="#form_register"
+                      id="btn-sign b"
+                      class="btn-sign text-black text-decoration-none px-3 py-1 rounded-4"
+                      >Sign Up</a
+                    > -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!-- menu header -->
+        <!-- <nav class="menu-header"></nav> -->
+      </section>
+
+      <!-- Phần thân trang web -->
+      <section class="container_section">
+        <div class="Payment">
+         <div class="method_payment">
+            <h4 id="text-link-header">Chọn giao dịch</h4>
+            <p id="method_momo">Momo</p>
+            <p id="method_bank">Bank</p>
+            <p id="method_tc">Thẻ cào</p>
+            <p id="method_history">Lịch sử nạp</p>
+            </div>
+          <div class="content_payment">
+            <div class="momo_pay" id="momo_pay">
+               <div class="left_infor_pay">
+                  <h4  id="text-link-header">Chuyển khoản qua Momo</h4>
+                  <p>Thông tin tài khoản: DINH DUC ANH</p> 
+                  <p>Số tài khoản: <span>0343564138</span></p> 
+                  <p>Nội dung chuyển tiền : <span>asdasdadas</span></p>
+               </div>
+               <div class="right_infor_pay"> <img class="qr_payment" src="../../assets/images/QR_Payment/Qr_momo.jpg" alt=""></div>
+            </div>
+            <div class="bank_pay" id="bank_pay">
+               <div class="left_infor_pay" >
+                  <h4  id="text-link-header">Chuyển khoản qua ngân hàng</h4>
+                  <p>Thông tin tài khoản: DINH DUC ANH</p> 
+                  <p>Số tài khoản: <span>1020412269</span></p> 
+                  <p>Nội dung chuyển tiền : <span>asdasdadas</span></p>
+               </div>
+               <div class="right_infor_pay"> <img class="qr_payment" src="../../assets/images/QR_Payment/qr_bank.jpg" alt=""></div>
+            </div>
+            <div class="tc_pay" id="tc_pay"> 
+               <div class="left_infor_pay">
+                  <h4>Nạp thẻ cào</h4>
+                  <h4 style="text-align: center;color: red;">Tính năng đang được bảo trì !</h4>
+                  <img src="../../assets/images/404/404.jpg" alt="">
+                  <!-- <p>Thông tin tài khoản: DINH DUC ANH</p> 
+                  <p>Số tài khoản: <span>1020412269</span></p> 
+                  <p>Nội dung chuyển tiền : <span>asdasdadas</span></p> -->
+               </div>
+               <div class="right_infor_pay"></div>
+            </div>
+            <div class="history_pay" id="history_pay"> 
+                  <h4 id="text-link-header">Lịch sử nạp</h4>
+                  <table class="list_acc_bought">
+                     <tr>
+                        <th>Tên acc: </th>
+                        <th>Tên email: </th>
+                        <th>Phương thức: </th>
+                        <th>Giá: </th>
+                        <th>Nội dung: </th>
+                        <th>Ngày thực hiện: </th>
+                     </tr>
+                     <tr>
+                        <td>Ankdev</td>
+                        <td>adminTest1@hehe.vn</td>
+                        <td>VCB</td>
+                        <td>120.000</td>
+                        <td>Nap_01</td>
+                        <td>20/6/2024</td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!-- kết thúc Phần thân trang web -->
+      <section class="foodter">
+        <div class="about_footer">
+          <h5 id="color_text_gradient">Về chúng tôi:</h5>
+
+          <p>
+            Uy tín là tiêu chí hàng đầu của chúng tôi. <br />
+            Hy vọng bạn có nhưng trải nghiệm tốt nhất. <br />
+            Đây là trang web duy nhất của Aidboss ngoài ra còn lại toàn web giả
+            mạo!
+          </p>
+        </div>
+        <div class="infour_contact_footer">
+          <h5 id="color_text_gradient">Thông tin liên hệ:</h5>
+          <span
+            >THỜI GIAN HỖ TRỢ: Sáng: 8h00 -> 11h30 | Chiều: 13h00 -> 21h00</span
+          >
+          <a
+            target="_blank"
+            id="icon_footer icon_fb"
+            href="https://www.facebook.com/profile.php?id=100039476863072"
+            ><i class="fa-brands fa-facebook"></i>
+            <span id="name_admin"> Dinh Duc Anh </span></a
+          >
+          <a
+            id="icon_footer icon_zalo"
+            href="https://zalo.me/0343564138"
+            target="_blank"
+            ><img width="20px" src="../../assets/images/logo/zalo.png" alt="" />
+            <span id="name_admin"> Dinh Duc Anh </span></a
+          >
+          <a
+            id="icon_footer icon_mess"
+            href="https://www.messenger.com/t/100039476863072/"
+          >
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <span id="name_admin"> Dinh Duc Anh </span>
+          </a>
+        </div>
+        <div class="type_service_footer">
+          <h5 id="color_text_gradient">Các loại dịch vụ của chúng tôi</h5>
+          <p>
+            Bán acc VIP : <br />
+            Genshin - Honkai - Honkai - LOL<br />
+            Bán acc RANDOM : <br />
+            Genshin - Honkai - Honkai - LOL
+          </p>
+        </div>
+      </section>
+    </section>
+    <!-- link js -->
+     <script src="../../assets/Js/pay.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
